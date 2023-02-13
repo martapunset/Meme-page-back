@@ -20,8 +20,4 @@ app.use(fileUpload({
   tempFileDir:'./uploads'
 }))
 
-//const Data = multer({ storage: storage });
-
-
-
 module.exports = app;
