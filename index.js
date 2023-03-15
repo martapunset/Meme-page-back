@@ -1,6 +1,6 @@
-const connect = require("./db/connect");
-const app = require("./server");
-const config = require("./config/config");
+const connect = require("./src/db/connect");
+const app = require("./src/server");
+const config = require("./src/config/config");
 
 const startServer = async () => {
   try {
